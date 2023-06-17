@@ -2,18 +2,11 @@ import { type Component } from "solid-js"
 import { AlbumInfo } from "../api/album"
 import { createSignal } from "solid-js"
 
-const AlbumDisplay: Component<{ info: AlbumInfo; onClick?: Function }> = (
-  props
-) => {
+const AlbumDisplay: Component<{ info: AlbumInfo }> = (props) => {
   const [album, _] = createSignal(props.info.album)
 
   return (
-    <div
-      class="scale-100 hover:scale-110 ease-in duration-200 cursor-pointer"
-      data-modal-target="albumModal"
-      data-modal-toggle="albumModal"
-      onclick={props.onClick?.()}
-    >
+    <div>
       <img
         style={{ width: "300px", height: "300px" }}
         class="rounded-lg shadow-xl dark:shadow-gray-500 light:shadow-gray-500"

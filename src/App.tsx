@@ -1,4 +1,4 @@
-import { For, type Component } from "solid-js"
+import { For, type Component, createSignal } from "solid-js"
 import { AiOutlineSearch } from "solid-icons/ai"
 import AlbumDisplay from "./components/albumDisplay"
 import AlbumPopup from "./components/albumPopup"
@@ -6,6 +6,7 @@ import { Albums } from "./data/albums"
 
 const App: Component = () => {
   const albums = Albums.sort((x, y) => x.album.name.localeCompare(y.album.name))
+  const [selected, setSelected] = createSignal(albums[0])
 
   return (
     <div class="">
@@ -55,10 +56,29 @@ const App: Component = () => {
       <div style={{ height: "70px" }}></div>
 
       <div class="flex flex-wrap gap-10 m-10 justify-center">
-        <For each={albums}>{(album, i) => <AlbumDisplay info={album} />}</For>
+        <For each={albums}>
+          {(album) => (
+            <a
+              onclick={() => setSelected(album)}
+              class="scale-100 hover:scale-110 ease-in duration-200 cursor-pointer"
+              data-modal-target="albumModal"
+              data-modal-toggle="albumModal"
+            >
+              <AlbumDisplay info={album} />
+            </a>
+          )}
+        </For>
       </div>
 
-      <AlbumPopup />
+      <div
+        id="albumModal"
+        data-modal-backdrop="static"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <AlbumPopup info={selected()} />
+      </div>
     </div>
   )
 }
