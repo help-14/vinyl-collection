@@ -4389,4 +4389,1251 @@ export const Albums: AlbumInfo[] = [
       url: "",
     },
   },
+  {
+    album: {
+      artist: "ABBA",
+      listeners: "24196",
+      image: [
+        {
+          size: "mega",
+          "#text":
+            "https://lastfm.freetls.fastly.net/i/u/300x300/8a44165611018a0dcebdc337a2ad0c9b.png",
+        },
+      ],
+      tracks: {
+        track: [
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 201,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/SOS",
+            name: "SOS",
+            "@attr": {
+              rank: 1,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 200,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/He+Is+Your+Brother",
+            name: "He Is Your Brother",
+            "@attr": {
+              rank: 2,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 187,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Ring+Ring",
+            name: "Ring Ring",
+            "@attr": {
+              rank: 3,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 190,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Hasta+Manana",
+            name: "Hasta Manana",
+            "@attr": {
+              rank: 4,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 172,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Nina,+Pretty+Ballerina",
+            name: "Nina, Pretty Ballerina",
+            "@attr": {
+              rank: 5,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 176,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Honey,+Honey",
+            name: "Honey, Honey",
+            "@attr": {
+              rank: 6,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 185,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/So+Long",
+            name: "So Long",
+            "@attr": {
+              rank: 7,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 197,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/I+Do,+I+Do,+I+Do,+I+Do,+I+Do",
+            name: "I Do, I Do, I Do, I Do, I Do",
+            "@attr": {
+              rank: 8,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 166,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/People+Need+Love",
+            name: "People Need Love",
+            "@attr": {
+              rank: 9,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 183,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Bang-A-Boomerang",
+            name: "Bang-A-Boomerang",
+            "@attr": {
+              rank: 10,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 190,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Another+Town,+Another+Train",
+            name: "Another Town, Another Train",
+            "@attr": {
+              rank: 11,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 213,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Mamma+Mia",
+            name: "Mamma Mia",
+            "@attr": {
+              rank: 12,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 192,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Dance+(While+the+Music+Still+Goes+On)",
+            name: "Dance (While the Music Still Goes On)",
+            "@attr": {
+              rank: 13,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 166,
+            url: "https://www.last.fm/music/ABBA/Greatest+Hits/Waterloo",
+            name: "Waterloo",
+            "@attr": {
+              rank: 14,
+            },
+            artist: {
+              url: "https://www.last.fm/music/ABBA",
+              name: "ABBA",
+              mbid: "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            },
+          },
+        ],
+      },
+      tags: {
+        tag: [
+          {
+            url: "https://www.last.fm/tag/pop",
+            name: "pop",
+          },
+          {
+            url: "https://www.last.fm/tag/70s",
+            name: "70s",
+          },
+          {
+            url: "https://www.last.fm/tag/abba",
+            name: "abba",
+          },
+          {
+            url: "https://www.last.fm/tag/disco",
+            name: "disco",
+          },
+          {
+            url: "https://www.last.fm/tag/swedish",
+            name: "swedish",
+          },
+        ],
+      },
+      name: "Greatest Hits",
+      playcount: "302695",
+      url: "https://www.last.fm/music/ABBA/Greatest+Hits",
+    },
+  },
+  {
+    album: {
+      artist: "Carpenters",
+      listeners: "32418",
+      image: [
+        {
+          size: "mega",
+          "#text":
+            "https://lastfm.freetls.fastly.net/i/u/300x300/fb2da8aa919079eff6d779c292e1bf78.png",
+        },
+      ],
+      tracks: {
+        track: [
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 196,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/Sing",
+            name: "Sing",
+            "@attr": {
+              rank: 1,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 289,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/This+Masquerade",
+            name: "This Masquerade",
+            "@attr": {
+              rank: 2,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 167,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/Heather",
+            name: "Heather",
+            "@attr": {
+              rank: 3,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: null,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/Jambalaya+(On+The+Bayou)",
+            name: "Jambalaya (On The Bayou)",
+            "@attr": {
+              rank: 4,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: null,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/I+Can%27t+Make+Music",
+            name: "I Can't Make Music",
+            "@attr": {
+              rank: 5,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 235,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/Yesterday+Once+More",
+            name: "Yesterday Once More",
+            "@attr": {
+              rank: 6,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: null,
+            url: "https://www.last.fm/music/Carpenters/Now+&+Then/Yesterday+Once+More%2FReprise",
+            name: "Yesterday Once More/Reprise",
+            "@attr": {
+              rank: 7,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+        ],
+      },
+      tags: {
+        tag: [
+          {
+            url: "https://www.last.fm/tag/70s",
+            name: "70s",
+          },
+          {
+            url: "https://www.last.fm/tag/pop",
+            name: "pop",
+          },
+          {
+            url: "https://www.last.fm/tag/oldies",
+            name: "oldies",
+          },
+          {
+            url: "https://www.last.fm/tag/easy+listening",
+            name: "easy listening",
+          },
+          {
+            url: "https://www.last.fm/tag/carpenters",
+            name: "carpenters",
+          },
+        ],
+      },
+      name: "Now & Then",
+      playcount: "239285",
+      url: "https://www.last.fm/music/Carpenters/Now+&+Then",
+    },
+  },
+  {
+    album: {
+      artist: "Adele",
+      mbid: "1cafd438-383c-4068-a1cd-01c9cfdeb8a2",
+      tags: {
+        tag: [
+          {
+            url: "https://www.last.fm/tag/pop",
+            name: "pop",
+          },
+          {
+            url: "https://www.last.fm/tag/soul",
+            name: "soul",
+          },
+          {
+            url: "https://www.last.fm/tag/adele",
+            name: "adele",
+          },
+          {
+            url: "https://www.last.fm/tag/2021",
+            name: "2021",
+          },
+          {
+            url: "https://www.last.fm/tag/british",
+            name: "british",
+          },
+        ],
+      },
+      playcount: "20428717",
+      image: [
+        {
+          size: "mega",
+          "#text":
+            "https://lastfm.freetls.fastly.net/i/u/300x300/930b68990dc476b27caf9edd92aa904c.png",
+        },
+      ],
+      tracks: {
+        track: [
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Strangers+by+Nature",
+            name: "Strangers by Nature",
+            "@attr": {
+              rank: 1,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 224,
+            url: "https://www.last.fm/music/Adele/30/Easy+on+Me",
+            name: "Easy on Me",
+            "@attr": {
+              rank: 2,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/My+Little+Love",
+            name: "My Little Love",
+            "@attr": {
+              rank: 3,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Cry+Your+Heart+Out",
+            name: "Cry Your Heart Out",
+            "@attr": {
+              rank: 4,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Oh+My+God",
+            name: "Oh My God",
+            "@attr": {
+              rank: 5,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Can+I+Get+It",
+            name: "Can I Get It",
+            "@attr": {
+              rank: 6,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/I+Drink+Wine",
+            name: "I Drink Wine",
+            "@attr": {
+              rank: 7,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/All+Night+Parking+(with+Erroll+Garner)+Interlude",
+            name: "All Night Parking (with Erroll Garner) Interlude",
+            "@attr": {
+              rank: 8,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Woman+Like+Me",
+            name: "Woman Like Me",
+            "@attr": {
+              rank: 9,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Hold+On",
+            name: "Hold On",
+            "@attr": {
+              rank: 10,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/To+Be+Loved",
+            name: "To Be Loved",
+            "@attr": {
+              rank: 11,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 30,
+            url: "https://www.last.fm/music/Adele/30/Love+Is+a+Game",
+            name: "Love Is a Game",
+            "@attr": {
+              rank: 12,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Adele",
+              name: "Adele",
+              mbid: "",
+            },
+          },
+        ],
+      },
+      url: "https://www.last.fm/music/Adele/30",
+      name: "30",
+      listeners: "669309",
+      wiki: {
+        published: "11 Nov 2021, 05:03",
+        summary:
+          '30 is the fourth studio album by Adele, released on November 19, 2021. The album is Adele\'s first project since her contract with XL Recordings expired after the release of 25 (2015). The album\'s title alludes to the age the singer first married ex-husband Simon Konecki, and the album features themes of separation, divorce, motherhood, and the anxiety of fame. The album was supported by its lead single "Easy on Me", Adele\'s first solo release in over five years. <a href="https://www.last.fm/music/Adele/30">Read more on Last.fm</a>.',
+        content:
+          '30 is the fourth studio album by Adele, released on November 19, 2021. The album is Adele\'s first project since her contract with XL Recordings expired after the release of 25 (2015). The album\'s title alludes to the age the singer first married ex-husband Simon Konecki, and the album features themes of separation, divorce, motherhood, and the anxiety of fame. The album was supported by its lead single "Easy on Me", Adele\'s first solo release in over five years. <a href="https://www.last.fm/music/Adele/30">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.',
+      },
+    },
+  },
+  {
+    album: {
+      artist: "The Beatles",
+      mbid: "03437e02-835f-3a0a-a37c-48a36c2e852a",
+      tags: {
+        tag: [
+          {
+            url: "https://www.last.fm/tag/rock",
+            name: "rock",
+          },
+          {
+            url: "https://www.last.fm/tag/1969",
+            name: "1969",
+          },
+          {
+            url: "https://www.last.fm/tag/60s",
+            name: "60s",
+          },
+          {
+            url: "https://www.last.fm/tag/classic+rock",
+            name: "classic rock",
+          },
+          {
+            url: "https://www.last.fm/tag/pop",
+            name: "pop",
+          },
+        ],
+      },
+      playcount: "43427727",
+      image: [
+        {
+          size: "mega",
+          "#text":
+            "https://lastfm.freetls.fastly.net/i/u/300x300/af251669a48a4bafb448e1f6c0de01be.png",
+        },
+      ],
+      tracks: {
+        track: [
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 256,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Come+Together",
+            name: "Come Together",
+            "@attr": {
+              rank: 1,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 341,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Something",
+            name: "Something",
+            "@attr": {
+              rank: 2,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 204,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Maxwell%27s+Silver+Hammer",
+            name: "Maxwell's Silver Hammer",
+            "@attr": {
+              rank: 3,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 186,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Oh!+Darling",
+            name: "Oh! Darling",
+            "@attr": {
+              rank: 4,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 169,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Octopus%27s+Garden",
+            name: "Octopus's Garden",
+            "@attr": {
+              rank: 5,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 464,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/I+Want+You+(She%27s+So+Heavy)",
+            name: "I Want You (She's So Heavy)",
+            "@attr": {
+              rank: 6,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 184,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Here+Comes+the+Sun",
+            name: "Here Comes the Sun",
+            "@attr": {
+              rank: 7,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 165,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Because",
+            name: "Because",
+            "@attr": {
+              rank: 8,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 353,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/You+Never+Give+Me+Your+Money",
+            name: "You Never Give Me Your Money",
+            "@attr": {
+              rank: 9,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 613,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Sun+King",
+            name: "Sun King",
+            "@attr": {
+              rank: 10,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 90,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Mean+Mr.+Mustard",
+            name: "Mean Mr. Mustard",
+            "@attr": {
+              rank: 11,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 102,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Polythene+Pam",
+            name: "Polythene Pam",
+            "@attr": {
+              rank: 12,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 123,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/She+Came+in+Through+the+Bathroom+Window",
+            name: "She Came in Through the Bathroom Window",
+            "@attr": {
+              rank: 13,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 91,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Golden+Slumbers",
+            name: "Golden Slumbers",
+            "@attr": {
+              rank: 14,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 102,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Carry+That+Weight",
+            name: "Carry That Weight",
+            "@attr": {
+              rank: 15,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 168,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/The+End",
+            name: "The End",
+            "@attr": {
+              rank: 16,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 20,
+            url: "https://www.last.fm/music/The+Beatles/Abbey+Road/Her+Majesty",
+            name: "Her Majesty",
+            "@attr": {
+              rank: 17,
+            },
+            artist: {
+              url: "https://www.last.fm/music/The+Beatles",
+              name: "The Beatles",
+              mbid: "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            },
+          },
+        ],
+      },
+      url: "https://www.last.fm/music/The+Beatles/Abbey+Road",
+      name: "Abbey Road",
+      listeners: "1089953",
+      wiki: {
+        published: "08 Aug 2012, 17:29",
+        summary:
+          "Abbey Road is the 11th studio album released by the English rock band The Beatles. It is their last recorded album, although Let It Be was the last album released before the band's dissolution in 1970. Work on Abbey Road began in April 1969, and the album was released on 26 September 1969 in the United Kingdom, and 1 October 1969 in the United States. Abbey Road is widely regarded as one of The Beatles' most tightly constructed albums, although the band was barely operating as a functioning unit at the time. Despite the tensions within the band, Abbey Road <a href=\"https://www.last.fm/music/The+Beatles/Abbey+Road\">Read more on Last.fm</a>.",
+        content:
+          'Abbey Road is the 11th studio album released by the English rock band The Beatles. It is their last recorded album, although Let It Be was the last album released before the band\'s dissolution in 1970. Work on Abbey Road began in April 1969, and the album was released on 26 September 1969 in the United Kingdom, and 1 October 1969 in the United States.\n\nAbbey Road is widely regarded as one of The Beatles\' most tightly constructed albums, although the band was barely operating as a functioning unit at the time. Despite the tensions within the band, Abbey Road was released to near universal acclaim and is considered to be one of the greatest albums of all time. In 2012, Abbey Road was voted 14th on Rolling Stone magazine\'s list of the "500 Greatest Albums of All Time". In 2009, readers of the magazine also named Abbey Road the greatest Beatles album. <a href="https://www.last.fm/music/The+Beatles/Abbey+Road">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.',
+      },
+    },
+  },
+  {
+    album: {
+      artist: "Joji",
+      mbid: "e26e8cbc-db4c-422a-a171-f0080a142c88",
+      tags: {
+        tag: [
+          {
+            url: "https://www.last.fm/tag/2022",
+            name: "2022",
+          },
+          {
+            url: "https://www.last.fm/tag/experimental",
+            name: "experimental",
+          },
+          {
+            url: "https://www.last.fm/tag/release+day",
+            name: "release day",
+          },
+          {
+            url: "https://www.last.fm/tag/joji",
+            name: "joji",
+          },
+          {
+            url: "https://www.last.fm/tag/2022+releases",
+            name: "2022 releases",
+          },
+        ],
+      },
+      playcount: "19383141",
+      image: [
+        {
+          size: "mega",
+          "#text":
+            "https://lastfm.freetls.fastly.net/i/u/300x300/6f2784172913db6982b2f6de18b837f6.jpg",
+        },
+      ],
+      tracks: {
+        track: [
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 231,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/Glimpse+of+Us",
+            name: "Glimpse of Us",
+            "@attr": {
+              rank: 1,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 102,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/Feeling+Like+the+End",
+            name: "Feeling Like the End",
+            "@attr": {
+              rank: 2,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 211,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/Die+for+You",
+            name: "Die for You",
+            "@attr": {
+              rank: 3,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 213,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/Before+the+Day+Is+Over",
+            name: "Before the Day Is Over",
+            "@attr": {
+              rank: 4,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 177,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/Dissolve",
+            name: "Dissolve",
+            "@attr": {
+              rank: 5,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 127,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/NIGHT+RIDER",
+            name: "NIGHT RIDER",
+            "@attr": {
+              rank: 6,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 142,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/BLAHBLAHBLAH+DEMO",
+            name: "BLAHBLAHBLAH DEMO",
+            "@attr": {
+              rank: 7,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 141,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/YUKON+(INTERLUDE)",
+            name: "YUKON (INTERLUDE)",
+            "@attr": {
+              rank: 8,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 113,
+            url: "https://www.last.fm/music/Joji/SMITHEREENS/1AM+FREESTYLE",
+            name: "1AM FREESTYLE",
+            "@attr": {
+              rank: 9,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Joji",
+              name: "Joji",
+              mbid: "8264722b-df00-467a-858e-5c97cda169c9",
+            },
+          },
+        ],
+      },
+      url: "https://www.last.fm/music/Joji/SMITHEREENS",
+      name: "SMITHEREENS",
+      listeners: "554279",
+      wiki: {
+        published: "11 Nov 2022, 12:14",
+        summary:
+          'SMITHEREENS is the third studio album from Japanese R&B/pop artist Joji. The project is the follow-up to his sophomore album Nectar, released in late 2020. The album\'s existence dates back to June 6, 2022 when Joji would announce the lead single “Glimpse of Us” in an Instagram post. On June 10, 2022, alongside the release of “Glimpse of Us” Band Wagon Asia reported that Joji would be releasing an EP later in the year stating: "the titular artist gives fans a sneak peek into his upcoming EP with his newest drop" The article would later retract this statement leaving the <a href="https://www.last.fm/music/Joji/SMITHEREENS">Read more on Last.fm</a>.',
+        content:
+          "SMITHEREENS is the third studio album from Japanese R&B/pop artist Joji. The project is the follow-up to his sophomore album Nectar, released in late 2020.\n\nThe album's existence dates back to June 6, 2022 when Joji would announce the lead single “Glimpse of Us” in an Instagram post.\n\nOn June 10, 2022, alongside the release of “Glimpse of Us” Band Wagon Asia reported that Joji would be releasing an EP later in the year stating:\n\n\"the titular artist gives fans a sneak peek into his upcoming EP with his newest drop\"\n\nThe article would later retract this statement leaving the validity of the statement up in the air at the time.\n\nLater on June 10, 2022, Joji would announce the “Smithereens Tour” prompting fans to speculate the tour's name being affiliated with the project.\n\nOn August 26, 2022, the album and its release date of November 4th would be announced alongside the album's second single “YUKON (INTERLUDE)”.\n\nOn October 14, 2022, the album's tracklist would be revealed by the streaming platform Deezer. On October 20, 2022, Joji would officially announce the album's tracklist through his social media pages. Alongside the announcement, a snippet of “Die For You” would accompany the video. <a href=\"https://www.last.fm/music/Joji/SMITHEREENS\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+      },
+    },
+  },
 ]
