@@ -1,4 +1,4 @@
-import { For, type Component } from "solid-js"
+import { For, type Component, Show } from "solid-js"
 import { AlbumInfo } from "../api/album"
 import { IoClose } from "solid-icons/io"
 import { createSignal, createEffect } from "solid-js"
@@ -219,20 +219,50 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
         </div>
         <div class="p-6 space-y-6">
           <div class="flex text-center">
-            <h1 class="text-3xl antialiased font-semibold tracking-tight text-gray-900 dark:text-white">
-              {album().album.name}
-            </h1>
+            <Show
+              when={album().album.url}
+              fallback={
+                <h1 class="text-3xl antialiased font-semibold tracking-tight text-gray-900 dark:text-white">
+                  {album().album.name}
+                </h1>
+              }
+            >
+              <a href={album().album.url}>
+                <h1 class="text-3xl antialiased font-semibold tracking-tight text-gray-900 dark:text-white">
+                  {album().album.name}
+                </h1>
+              </a>
+            </Show>
             <p class="antialiased text-gray-500	italic ml-2">
               ({album().album.artist})
             </p>
           </div>
 
-          <div class="grid grid-flow-row grid-cols-2 auto-rows-max">
+          <Show when={album().album.wiki?.summary}>
+            <div innerHTML={album().album.wiki?.summary}></div>
+          </Show>
+
+          <Show when={(album().album.tags?.tag?.length ?? 0) > 0}>
+            <p class="mr-2 text-gray-500">
+              <For each={album().album.tags?.tag ?? []}>
+                {(tag) => "#" + tag.name + "  "}
+              </For>
+            </p>
+          </Show>
+
+          <div class="grid grid-flow-row grid-cols-1 auto-rows-max">
             <For each={album().album.tracks?.track ?? []}>
               {(track, i) => (
                 <div class="flex">
                   <p class="text-gray-500">#{format2Digit(i() + 1)}</p>
-                  <p class="ml-3">{track.name}</p>
+                  <Show
+                    when={track.url}
+                    fallback={<p class="ml-3">{track.name}</p>}
+                  >
+                    <a href={track.url}>
+                      <p class="ml-3">{track.name}</p>
+                    </a>
+                  </Show>
                   <p class="ml-2 text-gray-500">
                     {formatDuration(track.duration)}
                   </p>
