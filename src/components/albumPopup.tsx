@@ -253,7 +253,7 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
           <div class="grid grid-flow-row grid-cols-1 auto-rows-max">
             <For each={album().album.tracks?.track ?? []}>
               {(track, i) => (
-                <div class="flex">
+                <div class="flex scale-100 hover:scale-105 ease-in duration-200 cursor-pointer">
                   <p class="text-gray-500">#{format2Digit(i() + 1)}</p>
                   <Show
                     when={track.url}
