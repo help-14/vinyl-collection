@@ -1429,7 +1429,7 @@ export const Albums: AlbumInfo[] = [
   },
   {
     album: {
-      artist: "Huey Lewis & The News",
+      artist: "Huey Lewis",
       listeners: "12",
       image: [{ size: "mega", "#text": "https://i.imgur.com/k2Tngrn.jpg" }],
       tracks: {
@@ -4311,7 +4311,7 @@ export const Albums: AlbumInfo[] = [
   },
   {
     album: {
-      artist: "Nhiều nghệ sĩ",
+      artist: "Various artist",
       name: "Một chiều thu",
       listeners: "1",
       image: [
