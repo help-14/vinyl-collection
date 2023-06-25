@@ -152,9 +152,14 @@ const App: Component = () => {
               NhanPT
             </a>
           </span>
-          <p class="items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            {albums.length} albums {"  |  "}
-            <a href="https://github.com/help-14/vinyl-collection">Github</a>
+          <p class="items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+            <a class="ml-2 mr-2">{albums.length} albums</a>|
+            <a
+              href="https://github.com/help-14/vinyl-collection"
+              class="ml-2 mr-2"
+            >
+              Github
+            </a>
           </p>
         </div>
       </footer>
