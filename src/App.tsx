@@ -3,10 +3,40 @@ import { AiOutlineSearch } from "solid-icons/ai"
 import AlbumDisplay from "./components/albumDisplay"
 import AlbumPopup from "./components/albumPopup"
 import { Albums } from "./data/albums"
+import { FaSolidAngleDown } from "solid-icons/fa"
 
 const App: Component = () => {
   const albums = Albums.sort((x, y) => x.album.name.localeCompare(y.album.name))
   const [selected, setSelected] = createSignal(albums[0])
+  const [display, setDisplay] = createSignal(albums)
+
+  let artistSet = new Set("")
+  for (const album of albums) {
+    artistSet.add(album.album.artist)
+  }
+  const artists = Array.from(artistSet).sort()
+
+  const filter = (keyword?: string) => {
+    document.querySelector("body")?.click()
+
+    if (!keyword) {
+      setDisplay(albums)
+      return
+    }
+
+    const lowerCaseKeyword = keyword.toLowerCase()
+    setDisplay(
+      albums.filter(
+        (a) =>
+          a.album.artist.toLowerCase().includes(lowerCaseKeyword) ||
+          a.album.name.toLowerCase().includes(lowerCaseKeyword) ||
+          (a.album.tracks?.track?.find((t) =>
+            t.name.toLowerCase().includes(lowerCaseKeyword)
+          ) ??
+            false)
+      )
+    )
+  }
 
   return (
     <div class="">
@@ -28,13 +58,14 @@ const App: Component = () => {
               </div>
               <input
                 type="text"
-                id="simple-search"
+                id="searchBox"
+                onInput={(e) => filter(e.target.value)}
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Search"
               />
             </div>
           </div>
-          {/* <div
+          <div
             class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
@@ -42,21 +73,54 @@ const App: Component = () => {
               <li>
                 <a
                   href="#"
-                  class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                  onclick={() => filter()}
+                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   aria-current="page"
                 >
                   Home
                 </a>
               </li>
+              <li>
+                <button
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                >
+                  Artists <FaSolidAngleDown class="ml-2" />
+                </button>
+                <div
+                  id="dropdownNavbar"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                >
+                  <ul
+                    class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                    aria-labelledby="dropdownLargeButton"
+                  >
+                    <For each={artists}>
+                      {(artist) => (
+                        <li>
+                          <a
+                            href="#"
+                            onclick={() => filter(artist)}
+                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          >
+                            {artist}
+                          </a>
+                        </li>
+                      )}
+                    </For>
+                  </ul>
+                </div>
+              </li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </nav>
 
       <div style={{ height: "70px" }}></div>
 
       <div class="flex flex-wrap gap-10 m-10 justify-center">
-        <For each={albums}>
+        <For each={display()}>
           {(album) => (
             <a
               onclick={() => setSelected(album)}
