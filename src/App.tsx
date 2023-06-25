@@ -89,7 +89,8 @@ const App: Component = () => {
             </a>
           </span>
           <p class="items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            {albums.length} albums
+            {albums.length} albums {"  |  "}
+            <a href="https://github.com/help-14/vinyl-collection">Github</a>
           </p>
         </div>
       </footer>
