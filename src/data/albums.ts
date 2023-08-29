@@ -5636,4 +5636,456 @@ export const Albums: AlbumInfo[] = [
       },
     },
   },
+  {
+    album: {
+      artist: "Carpenters",
+      mbid: "",
+      tags: {
+        tag: [
+          {
+            url: "https://www.last.fm/tag/70s",
+            name: "70s",
+          },
+          {
+            url: "https://www.last.fm/tag/pop",
+            name: "pop",
+          },
+          {
+            url: "https://www.last.fm/tag/easy+listening",
+            name: "easy listening",
+          },
+          {
+            url: "https://www.last.fm/tag/carpenters",
+            name: "carpenters",
+          },
+          {
+            url: "https://www.last.fm/tag/oldies",
+            name: "oldies",
+          },
+        ],
+      },
+      name: "Golden Double Deluxe",
+      image: [
+        {
+          size: "",
+          "#text": "https://i.imgur.com/BER0F0b.png",
+        },
+      ],
+      tracks: {
+        track: [
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 60,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Invocation",
+            name: "Invocation",
+            "@attr": {
+              rank: 1,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 192,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Help",
+            name: "Help",
+            "@attr": {
+              rank: 2,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 222,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Close+to+You",
+            name: "Close to You",
+            "@attr": {
+              rank: 3,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 177,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/I%27ll+Never+Fall+In+Love+Again",
+            name: "I'll Never Fall In Love Again",
+            "@attr": {
+              rank: 4,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 171,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Eve",
+            name: "Eve",
+            "@attr": {
+              rank: 5,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 184,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/We%27ve+Only+Just+Begun",
+            name: "We've Only Just Begun",
+            "@attr": {
+              rank: 6,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 170,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/For+All+We+Know",
+            name: "For All We Know",
+            "@attr": {
+              rank: 7,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 173,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Baby+It%27s+You",
+            name: "Baby It's You",
+            "@attr": {
+              rank: 8,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 189,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Reason+To+Believe",
+            name: "Reason To Believe",
+            "@attr": {
+              rank: 9,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 250,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Ticket+To+Ride",
+            name: "Ticket To Ride",
+            "@attr": {
+              rank: 10,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 189,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Turn+Away",
+            name: "Turn Away",
+            "@attr": {
+              rank: 11,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 262,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Another+Song",
+            name: "Another Song",
+            "@attr": {
+              rank: 12,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 226,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Superstar",
+            name: "Superstar",
+            "@attr": {
+              rank: 13,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 196,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Mr.+Guder",
+            name: "Mr. Guder",
+            "@attr": {
+              rank: 14,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 250,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Crescent+Noon",
+            name: "Crescent Noon",
+            "@attr": {
+              rank: 15,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 232,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/One+Love",
+            name: "One Love",
+            "@attr": {
+              rank: 16,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 328,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Bacharach+%2F+David+Medley:+Knowing+When+To+Leave+%2F+Make+It+Easy+On+Yourself+%2F+There%27s+Always+Something+There+To+Remind+Me+%2F+I%27ll+Never+Fall+In+Love+Again+%2F+Walk+On+By+%2F+Do+You+Know+The+Way+To+San+Jose",
+            name: "Bacharach / David Medley: Knowing When To Leave / Make It Easy On Yourself / There's Always Something There To Remind Me / I'll Never Fall In Love Again / Walk On By / Do You Know The Way To San Jose",
+            "@attr": {
+              rank: 17,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 177,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Bless+the+Beasts+and+Children",
+            name: "Bless the Beasts and Children",
+            "@attr": {
+              rank: 18,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 220,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Rainy+Days+&+Mondays",
+            name: "Rainy Days & Mondays",
+            "@attr": {
+              rank: 19,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 313,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Someday",
+            name: "Someday",
+            "@attr": {
+              rank: 20,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 110,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Love+Is+Surrender",
+            name: "Love Is Surrender",
+            "@attr": {
+              rank: 21,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 179,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Maybe+It%27s+You",
+            name: "Maybe It's You",
+            "@attr": {
+              rank: 22,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 165,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Your+Wonderful+Parade",
+            name: "Your Wonderful Parade",
+            "@attr": {
+              rank: 23,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+          {
+            streamable: {
+              fulltrack: "0",
+              "#text": "0",
+            },
+            duration: 40,
+            url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE/Benediction",
+            name: "Benediction",
+            "@attr": {
+              rank: 24,
+            },
+            artist: {
+              url: "https://www.last.fm/music/Carpenters",
+              name: "Carpenters",
+              mbid: "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+            },
+          },
+        ],
+      },
+      listeners: "1",
+      playcount: "5",
+      url: "https://www.last.fm/music/Carpenters/GOLDEN+DOUBLE+DELUXE",
+    },
+  },
 ]
