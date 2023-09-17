@@ -9,7 +9,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/9433333de7bfcb00eafcaff197e02b2d.jpg",
+            "/assets/9433333de7bfcb00eafcaff197e02b2d.jpg",
         },
       ],
       tracks: {
@@ -215,7 +215,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/8e4304de63b44d6ca8f9d3df2576ac8f.png",
+            "/assets/8e4304de63b44d6ca8f9d3df2576ac8f.png",
         },
       ],
       tracks: {
@@ -409,7 +409,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/2fd74e1b4d6cc28ed14d7a62c8c516c4.jpg",
+            "/assets/2fd74e1b4d6cc28ed14d7a62c8c516c4.jpg",
         },
       ],
       listeners: "148280",
@@ -448,7 +448,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/ecae82853b784726c7e2c4e2ba55a4fd.png",
+            "/assets/ecae82853b784726c7e2c4e2ba55a4fd.png",
         },
       ],
       tracks: {
@@ -631,7 +631,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/99360499a904489db0a7f964982482f8.png",
+            "/assets/99360499a904489db0a7f964982482f8.png",
         },
       ],
       tracks: {
@@ -951,7 +951,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/5aa48d2cb7af7b9cf2718622ede7212f.jpg",
+            "/assets/5aa48d2cb7af7b9cf2718622ede7212f.jpg",
         },
       ],
       tracks: {
@@ -1096,7 +1096,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/f0d2153b195e4ead8b9a069d8fc880de.jpg",
+            "/assets/f0d2153b195e4ead8b9a069d8fc880de.jpg",
         },
       ],
       tracks: {
@@ -1204,7 +1204,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/1aec5cac8403fbda275b8200b77c8318.png",
+            "/assets/1aec5cac8403fbda275b8200b77c8318.png",
         },
       ],
       tracks: {
@@ -1431,7 +1431,7 @@ export const Albums: AlbumInfo[] = [
     album: {
       artist: "Huey Lewis",
       listeners: "12",
-      image: [{ size: "mega", "#text": "https://i.imgur.com/k2Tngrn.jpg" }],
+      image: [{ size: "mega", "#text": "/assets/k2Tngrn.jpg" }],
       tracks: {
         track: [
           {
@@ -1665,7 +1665,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/9acc998fa949e6368121cf84099d272d.jpg",
+            "/assets/9acc998fa949e6368121cf84099d272d.jpg",
         },
       ],
       tracks: {
@@ -1856,7 +1856,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/69755fdd7532efee2811bb5cc81e0dc7.jpg",
+            "/assets/69755fdd7532efee2811bb5cc81e0dc7.jpg",
         },
       ],
       tracks: {
@@ -1979,7 +1979,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/61eefec2f7ec436688633921e0d41b86.png",
+            "/assets/61eefec2f7ec436688633921e0d41b86.png",
         },
       ],
       tracks: {
@@ -2148,7 +2148,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/e345e60dfec207641798c02ae8071280.png",
+            "/assets/e345e60dfec207641798c02ae8071280.png",
         },
       ],
       tracks: {
@@ -2261,7 +2261,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/46f8fabfef2e1e3a82a2a612c9c2b82c.jpg",
+            "/assets/46f8fabfef2e1e3a82a2a612c9c2b82c.jpg",
         },
       ],
       tracks: {
@@ -2534,7 +2534,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/5d53d7e6aad2f08c464e301d3bab6e96.jpg",
+            "/assets/5d53d7e6aad2f08c464e301d3bab6e96.jpg",
         },
       ],
       tracks: {
@@ -2757,7 +2757,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/b74dc22e72de2839db17e7e04b41e8f8.jpg",
+            "/assets/b74dc22e72de2839db17e7e04b41e8f8.jpg",
         },
       ],
       tracks: {
@@ -3115,7 +3115,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/e6a34793a424eec94bde00c621caa70f.jpg",
+            "/assets/e6a34793a424eec94bde00c621caa70f.jpg",
         },
       ],
       tracks: {
@@ -3351,7 +3351,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/ba104031ae5f14d0d4c4663842b42a3c.jpg",
+            "/assets/ba104031ae5f14d0d4c4663842b42a3c.jpg",
         },
       ],
       tracks: {
@@ -3481,7 +3481,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/e4e78f040e4f914a4247223e06893b2a.jpg",
+            "/assets/e4e78f040e4f914a4247223e06893b2a.jpg",
         },
       ],
       tags: { tag: [] },
@@ -3523,7 +3523,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/Seh1AXc.jpg",
+          "#text": "/assets/Seh1AXc.jpg",
         },
       ],
       tracks: {
@@ -3848,7 +3848,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "extralarge",
-          "#text": "https://i.imgur.com/Gz3Bhyf.jpg",
+          "#text": "/assets/Gz3Bhyf.jpg",
         },
       ],
       mbid: "",
@@ -3866,7 +3866,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/d3c1a972169d42bd924020cd2398e24b.jpg",
+            "/assets/d3c1a972169d42bd924020cd2398e24b.jpg",
         },
       ],
       mbid: "",
@@ -3896,7 +3896,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/hLBsYNN.jpg",
+          "#text": "/assets/hLBsYNN.jpg",
         },
       ],
       tracks: {
@@ -4034,7 +4034,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/QzMZaLr.jpg",
+          "#text": "/assets/QzMZaLr.jpg",
         },
       ],
       mbid: "",
@@ -4076,7 +4076,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/ef9ORUe.jpg",
+          "#text": "/assets/ef9ORUe.jpg",
         },
       ],
       tracks: {
@@ -4299,7 +4299,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/Y2GDVGG.jpg",
+          "#text": "/assets/Y2GDVGG.jpg",
         },
       ],
       mbid: "",
@@ -4317,7 +4317,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/o80n1q1.jpg",
+          "#text": "/assets/o80n1q1.jpg",
         },
       ],
       tags: { tag: [] },
@@ -4333,7 +4333,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/iuspM6Q.jpg",
+          "#text": "/assets/iuspM6Q.jpg",
         },
       ],
       tags: { tag: [] },
@@ -4349,7 +4349,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/vSAqcLV.jpg",
+          "#text": "/assets/vSAqcLV.jpg",
         },
       ],
       tags: { tag: [] },
@@ -4365,7 +4365,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/ovsplJq.jpg",
+          "#text": "/assets/ovsplJq.jpg",
         },
       ],
       tags: { tag: [] },
@@ -4381,7 +4381,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "mega",
-          "#text": "https://i.imgur.com/tyJHFVi.jpg",
+          "#text": "/assets/tyJHFVi.jpg",
         },
       ],
       tags: { tag: [] },
@@ -4397,7 +4397,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/8a44165611018a0dcebdc337a2ad0c9b.png",
+            "/assets/8a44165611018a0dcebdc337a2ad0c9b.png",
         },
       ],
       tracks: {
@@ -4679,7 +4679,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/fb2da8aa919079eff6d779c292e1bf78.png",
+            "/assets/fb2da8aa919079eff6d779c292e1bf78.png",
         },
       ],
       tracks: {
@@ -4867,7 +4867,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/930b68990dc476b27caf9edd92aa904c.png",
+            "/assets/930b68990dc476b27caf9edd92aa904c.png",
         },
       ],
       tracks: {
@@ -5123,7 +5123,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/af251669a48a4bafb448e1f6c0de01be.png",
+            "/assets/af251669a48a4bafb448e1f6c0de01be.png",
         },
       ],
       tracks: {
@@ -5464,7 +5464,7 @@ export const Albums: AlbumInfo[] = [
         {
           size: "mega",
           "#text":
-            "https://lastfm.freetls.fastly.net/i/u/300x300/6f2784172913db6982b2f6de18b837f6.jpg",
+            "/assets/6f2784172913db6982b2f6de18b837f6.jpg",
         },
       ],
       tracks: {
@@ -5668,7 +5668,7 @@ export const Albums: AlbumInfo[] = [
       image: [
         {
           size: "",
-          "#text": "https://i.imgur.com/BER0F0b.png",
+          "#text": "/assets/BER0F0b.png",
         },
       ],
       tracks: {

@@ -19,7 +19,10 @@ jobs:
         run: npm install -g typescript
 
       - name: Download images
-        run: cd src/ && tsc build.ts && node build.js
+        run: cd src/ && tsc build.ts && node build.js && cd ../
+
+      - name: Clean js files
+        run: rm src/build.js src/api/album.js src/data/albums.js
 
       - name: Build
         run: npm run build
