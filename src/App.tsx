@@ -38,6 +38,15 @@ const App: Component = () => {
     )
   }
 
+  function spliceIntoChunks(arr: any[], chunkSize: number) {
+    const res = []
+    while (arr.length > 0) {
+      const chunk = arr.splice(0, chunkSize)
+      res.push(chunk)
+    }
+    return res
+  }
+
   return (
     <div class="">
       <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
@@ -90,26 +99,37 @@ const App: Component = () => {
                 </button>
                 <div
                   id="dropdownNavbar"
-                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                  class="z-10 hidden grid grid-cols-2 w-auto font-normal bg-white divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                 >
-                  <ul
-                    class="py-2 text-sm text-gray-700 dark:text-gray-400"
-                    aria-labelledby="dropdownLargeButton"
+                  <For
+                    each={spliceIntoChunks(
+                      artists,
+                      Math.round(artists.length / 2)
+                    )}
                   >
-                    <For each={artists}>
-                      {(artist) => (
-                        <li>
-                          <a
-                            href="#"
-                            onclick={() => filter(artist)}
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                          >
-                            {artist}
-                          </a>
-                        </li>
-                      )}
-                    </For>
-                  </ul>
+                    {(chunks) => (
+                      <div class="p-4">
+                        <ul
+                          class="text-sm text-gray-700 dark:text-gray-400 "
+                          aria-labelledby="dropdownLargeButton"
+                        >
+                          <For each={chunks}>
+                            {(artist) => (
+                              <li>
+                                <a
+                                  href="#"
+                                  onclick={() => filter(artist)}
+                                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                                >
+                                  {artist}
+                                </a>
+                              </li>
+                            )}
+                          </For>
+                        </ul>
+                      </div>
+                    )}
+                  </For>
                 </div>
               </li>
             </ul>
