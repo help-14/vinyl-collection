@@ -3,7 +3,7 @@ import * as fs from "fs"
 import * as https from "https"
 
 async function downloadFile(url: string, targetFile: string) {
-  console.log(`Download from ${url} to ${targetFile}`)
+  console.log(`Download from '${url}' to '${targetFile}'`)
   return await new Promise((resolve, reject) => {
     https
       .get(url, (response) => {
