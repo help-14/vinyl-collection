@@ -38,8 +38,12 @@ async function downloadFile(url: string, targetFile: string) {
     const imgUrl = album.album.image[0]["#text"]
     const imgFileName =
       "/assets/" + imgUrl.substring(imgUrl.lastIndexOf("/") + 1)
-    await downloadFile(imgUrl, `.${imgFileName}`)
-    fileText = fileText.replace(imgUrl, imgFileName)
+    try {
+      await downloadFile(imgUrl, `.${imgFileName}`)
+      fileText = fileText.replace(imgUrl, imgFileName)
+    } catch {
+      continue
+    }
   }
 
   fs.writeFileSync("./data/albums.ts", fileText)
