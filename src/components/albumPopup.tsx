@@ -227,7 +227,7 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
                 </h1>
               }
             >
-              <a href={album().album.url}>
+              <a href={album().album.url} target="_blank">
                 <h1 class="text-3xl antialiased font-semibold tracking-tight text-gray-900 dark:text-white">
                   {album().album.name}
                 </h1>
@@ -259,7 +259,7 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
                     when={track.url}
                     fallback={<p class="ml-3">{track.name}</p>}
                   >
-                    <a href={track.url}>
+                    <a href={track.url} target="_blank">
                       <p class="ml-3">{track.name}</p>
                     </a>
                   </Show>
