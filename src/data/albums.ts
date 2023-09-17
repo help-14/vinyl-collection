@@ -5432,6 +5432,7 @@ export const Albums: AlbumInfo[] = [
     },
   },
   {
+    color: "#badc58",
     album: {
       artist: "Joji",
       mbid: "e26e8cbc-db4c-422a-a171-f0080a142c88",
