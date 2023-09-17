@@ -31,16 +31,16 @@ async function downloadFile(url: string, targetFile: string) {
   })
 }
 
-await (async () => {
+;(async () => {
   let fileText = fs.readFileSync("./data/albums.ts").toString()
 
   for (const album of Albums) {
     const imgUrl = album.album.image[0]["#text"]
     const imgFileName =
-      "./assets/" + imgUrl.substring(imgUrl.lastIndexOf("/") + 1)
-    downloadFile(imgUrl, imgFileName)
+      "/assets/" + imgUrl.substring(imgUrl.lastIndexOf("/") + 1)
+    await downloadFile(imgUrl, `.${imgFileName}`)
     fileText = fileText.replace(imgUrl, imgFileName)
   }
 
-  console.log(fileText)
+  fs.writeFileSync("./data/albums.ts", fileText)
 })()
