@@ -9,7 +9,7 @@ const AlbumDisplay: Component<{ info: AlbumInfo }> = (props) => {
     <div>
       <img
         style={{ width: "300px", height: "300px" }}
-        class="rounded-lg shadow-xl dark:shadow-gray-500 light:shadow-gray-500"
+        class="rounded-lg shadow-xl dark:shadow-neutral-800 light:shadow-gray-500"
         src={album().image.at(-1)?.["#text"]}
         loading="lazy"
       />

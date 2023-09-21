@@ -61,7 +61,7 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
                 src={album().album.image.at(-1)?.["#text"]}
               />
               <div
-                class="px-4 dark:text-gray-900 text-white my-auto"
+                class="px-4 text-white my-auto"
                 style={{
                   "z-index": 10,
                   "text-shadow":
@@ -118,7 +118,7 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
         </div>
         <div class="p-6 space-y-6">
           <Show when={(album().album.tags?.tag?.length ?? 0) > 0}>
-            <p class="mr-2 text-gray-500">
+            <p class="mr-2 text-gray-500 dark:text-gray-400">
               <For each={album().album.tags?.tag ?? []}>
                 {(tag) => "#" + tag.name + "  "}
               </For>
@@ -128,17 +128,19 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
           <div class="grid grid-flow-row grid-cols-1 auto-rows-max">
             <For each={album().album.tracks?.track ?? []}>
               {(track, i) => (
-                <div class="flex scale-100 hover:scale-105 ease-in duration-200 cursor-pointer">
-                  <p class="text-gray-500">#{format2Digit(i() + 1)}</p>
+                <div class="flex scale-100 hover:scale-105 ease-in duration-200 cursor-pointer my-1">
+                  <p class="text-gray-500  dark:text-gray-400">
+                    #{format2Digit(i() + 1)}
+                  </p>
                   <Show
                     when={track.url}
                     fallback={<p class="ml-3">{track.name}</p>}
                   >
                     <a href={track.url} target="_blank">
-                      <p class="ml-3">{track.name}</p>
+                      <p class="ml-3 dark:text-white">{track.name}</p>
                     </a>
                   </Show>
-                  <p class="ml-2 text-gray-500">
+                  <p class="ml-2 text-gray-500 dark:text-gray-400">
                     {formatDuration(track.duration)}
                   </p>
                 </div>
@@ -146,7 +148,6 @@ const AlbumPopup: Component<{ info: AlbumInfo }> = (props) => {
             </For>
           </div>
         </div>
-        <div class="flex items-center p-6 space-x-2 border-gray-200 rounded-b dark:border-gray-600"></div>
       </div>
     </div>
   )

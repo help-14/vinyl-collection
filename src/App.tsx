@@ -6,6 +6,18 @@ import { Albums } from "./data/albums"
 import { FaSolidAngleDown } from "solid-icons/fa"
 
 const App: Component = () => {
+  if (
+    localStorage.getItem("color-theme") === "dark" ||
+    (!("color-theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    document.documentElement.classList.add("dark")
+    document.querySelector("body")?.classList.add("dark")
+  } else {
+    document.documentElement.classList.remove("dark")
+    document.querySelector("body")?.classList.remove("dark")
+  }
+
   const albums = Albums.sort((x, y) => x.album.name.localeCompare(y.album.name))
   const [selected, setSelected] = createSignal(albums[0])
   const [display, setDisplay] = createSignal(albums)
@@ -49,7 +61,7 @@ const App: Component = () => {
 
   return (
     <div class="">
-      <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <nav class="bg-white dark:bg-gray-800 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://vinyl.nhan.pt/" class="flex items-center">
             <img
@@ -78,7 +90,7 @@ const App: Component = () => {
             class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 dark:border-gray-700">
               <li>
                 <a
                   href="#"
@@ -139,7 +151,7 @@ const App: Component = () => {
 
       <div style={{ height: "70px" }}></div>
 
-      <div class="flex flex-wrap gap-10 m-10 justify-center">
+      <div class="flex flex-wrap gap-10 p-10 justify-center">
         <For each={display()}>
           {(album) => (
             <a
@@ -164,7 +176,7 @@ const App: Component = () => {
         <AlbumPopup info={selected()} />
       </div>
 
-      <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+      <footer class="bg-white m-4 rounded-lg dark:bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" - "}
